@@ -187,7 +187,7 @@
               </a>
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/admin/add-medical-scheme.html">Add Medical Schemes</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/add-medical-scheme.html">Add Medical Schemes</a></li>
                   <li class="nav-item"> <a class="nav-link" href="../../pages/admin/medical-schemes.html">Available Medical Schemes</a></li>
                 </ul>
               </div>
@@ -211,141 +211,152 @@
                 <i class="mdi mdi-settings menu-icon"></i>
               </a>
             </li>
+
           </ul>
         </nav>
         <!-- partial -->
         <div class="main-panel">
           <div class="content-wrapper">
             <div class="page-header">
-              <div class="page-title">
-                <form class="forms-sample scheme-form">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="form-group">
-                                <select class="form-control" id="exampleSelectGender">
-                                <option>All Users</option>
-                                <option>Adminstrators</option>
-                                <option>De-Activated</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-group">
-                                <select class="form-control" id="exampleSelectGender">
-                                <option>All Status</option>
-                                <option>Activated</option>
-                                <option>De-Activated</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-              </div>
-              <div>
-                <a class=" btn btn-primary p-3 text-uppercase" href="./add-user.html">Add New User</a>
-              </div>
+              <h3 class="page-title">
+                <span class="page-title-icon bg-primary text-white mr-2">
+                  <i class="mdi mdi-account"></i>
+                </span> Add New User
+              </h3>
             </div>
             <div class="row">
-               <div class="col-lg-12 grid-margin stretch-card">
+                <div class="col-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th> User </th>
-                          <th> Email Address </th>
-                          <th> Account Type </th>
-                          <th> Hospital </th>
-                          <th> Account Status </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-1.png" alt="image" />
-                            Herman Beck
-                          </td>
-                          <td>
-                            michaeljohn@nitel.mw
-                          </td>
-                          <td>Adminstrator</td>
-                          <td>Queen Elizabeth Central Hospital (QECH)</td>
-                          <td class="text-success">Active</td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-2.png" alt="image" />
-                          Herman Beck
-                          </td>
-                          <td>
-                            michaeljohn@nitel.mw
-                          </td>
-                          <td>Lab Technician</td>
-                          <td>Queen Elizabeth Central Hospital (QECH)</td>
-                          <td class="text-success">Active</td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-3.png" alt="image" />
-                          Herman Beck
-                          </td>
-                          <td>
-                            michaeljohn@nitel.mw
-                          </td>
-                          <td>Adminstrator</td>
-                          <td>Queen Elizabeth Central Hospital (QECH)</td>
-                          <td class="text-warning">De-Activated</td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-4.png" alt="image" />
-                         Herman Beck
-                          </td>
-                          <td>
-                            michaeljohn@nitel.mw
-                          </td>
-                          <td>Lab Technician</td>
-                          <td>Queen Elizabeth Central Hospital (QECH)</td>
-                          <td class="text-success">Active</td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-1.png" alt="image" />
-                          Michael John
-                          </td>
-                          <td>
-                            michaeljohn@nitel.mw
-                          </td>
-                          <td>Adminstrator</td>
-                          <td>Queen Elizabeth Central Hospital (QECH)</td>
-                          <td class="text-warning">De-Activated</td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-2.png" alt="image" />
-                          Herman Beck
-                          </td>
-                          <td>
-                            michaeljohn@nitel.mw
-                          </td>
-                          <td>Adminstrator</td>
-                          <td>Queen Elizabeth Central Hospital (QECH)</td>
-                          <td class="text-warning">De-Activated</td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../assets/images/faces-clipart/pic-3.png" alt="image" />
-                          Herman Beck
-                          </td>
-                          <td>
-                            michaeljohn@nitel.mw
-                          </td>
-                          <td>Adminstrator</td>
-                          <td>Queen Elizabeth Central Hospital (QECH)</td>
-                          <td class="text-warning">De-Activated</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      <div class="col-12">
+                        <form class="forms-sample scheme-form">
+                            <h4>Personal Details</h4>
+                            <hr>
+                            <br>
+                            <div class="row">
+                                <div class="col-4">
+                                    
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputName1">First Name</label>
+                                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputName1">Last Name</label>
+                                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleSelectGender">Gender</label>
+                                            <select class="form-control" id="exampleSelectGender">
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputName1">Date of Birth</label>
+                                            <input type="date" class="form-control" id="exampleInputName1" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleSelectGender">Nationality</label>
+                                            <select class="form-control" id="exampleSelectGender">
+                                            <option>Malawian</option>
+                                            <option>South African</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>Contact Details</h4>
+                            <hr>
+                            <br>
+                            <div class="row">
+                                <div class="col-4">
+                                    
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputName1">Phone Number</label>
+                                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputName1">E-mail Address</label>
+                                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputName1">Area</label>
+                                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputName1">City</label>
+                                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <h4>Account Details</h4>
+                            <hr>
+                            <br>
+                            <div class="row">
+                                <div class="col-4">
+                                    
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                    
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleSelectGender">Account Type</label>
+                                            <select class="form-control" id="exampleSelectGender">
+                                            <option>Adminstrator</option>
+                                            <option>Lab Technician</option>
+                                            <option>Pharmacist</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleSelectGender">Account Status</label>
+                                            <select class="form-control" id="exampleSelectGender">
+                                            <option>Activated</option>
+                                            <option>De-Activated</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-end">
+                                <div class="btn-process">
+                                    <button type="submit" class="btn btn-primary mr-2 text-uppercase">Submit</button>
+                                    <button class="btn btn-light text-uppercase">Cancel</button>
+                                </div>
+                            </div>
+                        </form>
+                      </div>
+                    
                   </div>
                 </div>
               </div>
